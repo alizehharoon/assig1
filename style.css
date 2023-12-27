@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #6c757d;
+    margin: 0 1rem;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.book-list {
+    margin-top: 2rem;
+}
+
+.list-title {
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+.form {
+    margin-top: 2rem;
+}
+
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+footer span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #6c757d;
+}
+
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact h5 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #212529;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        margin: 0 0.5rem;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+}
